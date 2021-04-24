@@ -13,10 +13,11 @@ distance.ino: plays sounds based on your distance to the plant.
 
 ## Usage
 
-```processing
-import processing.serial.*;
-Serial myPort;
-import guru.ttslib.*;
+```
+#include <CapacitiveSensor.h>
+#include <Arduino.h>
+#include <SoftwareSerial.h>
+#include <DFRobotDFPlayerMini.h>
 ```
 
 ## Contributing
